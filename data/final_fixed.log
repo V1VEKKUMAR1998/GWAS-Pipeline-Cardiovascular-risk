@@ -1,0 +1,26 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile output_data
+  --make-bed
+  --out data/final_fixed
+  --pheno phenotype_data_fixed.txt
+
+Hostname: v1vekkumar1-gwaspipelin-ykuaj2js4mr
+Working directory: /workspace/GWAS-Pipeline-Cardiovascular-risk
+Start time: Tue Jul  1 13:29:09 2025
+
+Random number seed: 1751376549
+64297 MB RAM detected; reserving 32148 MB for main workspace.
+1000 variants loaded from .bim file.
+50 people (50 males, 0 females) loaded from .fam.
+27 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 50 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+1000 variants and 50 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 27 are controls.  (23 phenotypes
+are missing.)
+--make-bed to data/final_fixed.bed + data/final_fixed.bim +
+data/final_fixed.fam ... done.
+
+End time: Tue Jul  1 13:29:09 2025
