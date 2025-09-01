@@ -11,7 +11,7 @@ This project demonstrates a complete Genome-Wide Association Study (GWAS) pipeli
 
 ## Tools Used
 - Python (pandas, matplotlib, seaborn)
-- PLINK 1.9
+- PLINK 1.07
 - Gitpod (for cloud-based development)
 
 ## Key Files
