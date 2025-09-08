@@ -3,7 +3,7 @@
 
 
 This project demonstrates a complete Genome-Wide Association Study (GWAS) pipeline using synthetic genotype and phenotype data to identify SNPs associated with cardiovascular risk.
-
+FLOW CHART
 Start
   |
   v
