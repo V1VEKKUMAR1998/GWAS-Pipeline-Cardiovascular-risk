@@ -1,6 +1,6 @@
 # GWAS-Pipeline-Cardiovascular-risk
 # GWAS Pipeline for Cardiovascular Risk
-Start
+#(Start
   |
   v
 Simulate Data
@@ -41,7 +41,7 @@ Generate Plots
 Interpret Top SNP Associations
   |
   v
-End
+End)
 
 This project demonstrates a complete Genome-Wide Association Study (GWAS) pipeline using synthetic genotype and phenotype data to identify SNPs associated with cardiovascular risk.
 
