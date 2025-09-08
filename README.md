@@ -4,6 +4,50 @@
 
 This project demonstrates a complete Genome-Wide Association Study (GWAS) pipeline using synthetic genotype and phenotype data to identify SNPs associated with cardiovascular risk.
 
+Start
+  |
+  v
+Simulate Data
+  - synthetic_genotype_50samples.csv
+  - synthetic_phenotype_50samples.csv
+  |
+  v
+Convert Genotype File
+  - python3 convertfile.py
+  |
+  v
+Generate PLINK Binary Files
+  - plink --file Genotype_data --make-bed --out output_data
+  |
+  v
+Fix Phenotype IDs
+  - python3 fix_phenotype_ids.py
+  |
+  v
+Recode Phenotypes
+  - python3 fix_pheno_recoding.py
+  |
+  v
+Prepare Final PLINK Dataset
+  - plink --bfile output_data --pheno phenotype_data_plink.txt --make-bed --out data/final_ready
+  |
+  v
+Perform GWAS Analysis
+  - plink --bfile data/final_ready --logistic --out results/gwas_results
+  |
+  v
+Generate Plots
+  - python3 plot_gwas_results.py
+  - results/manhattan_plot.png
+  - results/qq_plot.png
+  |
+  v
+Interpret Top SNP Associations
+  |
+  v
+End
+
+
 ## Project Goals
 - Simulate genotype and phenotype data for 50 individuals
 - Perform GWAS using PLINK
